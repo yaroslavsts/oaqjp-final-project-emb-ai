@@ -1,7 +1,7 @@
 """Integration tests for the five required Watson emotion classifications."""
 
 import unittest
-from EmotionDetection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 
 class TestEmotionDetection(unittest.TestCase):
